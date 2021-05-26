@@ -1,2 +1,4 @@
-# useful-scripts-collection
-Collection of useful scripts that don't need a separate repo for each. Made by me. For Linux / Mac / Windows.
+# Useful Scripts Collection
+Collection of useful scripts that don't need a separate repo for each.
+For Linux / Mac / Windows.
+Made by me, @tekk
