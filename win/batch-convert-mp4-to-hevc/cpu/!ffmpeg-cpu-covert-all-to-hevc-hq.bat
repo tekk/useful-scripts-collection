@@ -1,0 +1,1 @@
+for /f "tokens=1 delims=." %%a in ('dir /B *.mp4') do ffmpeg -n -hwaccel auto -i "%%a.mp4" -c:v libx265 -crf 23 -c:a aac -b:a 320k "output-hevc\%%a.mp4"
