@@ -1,0 +1,1 @@
+for /f "tokens=1 delims=." %%a in ('dir /B *.mp4') do ffmpeg -n -i "%%a.mp4" -c:v libx265 -crf 28 -c:a aac -b:a 128k "h265\%%a.h265.mp4"

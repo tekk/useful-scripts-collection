@@ -1,0 +1,1 @@
+ffmpeg.exe -hwaccel cuda -i $1 -c:v hevc_nvenc -preset slow -rc vbr_hq -b:v 6M -maxrate:v 10M -c:a aac -b:a 240k COMPASS_HEVC.mp4
